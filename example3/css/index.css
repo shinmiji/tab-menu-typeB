@@ -1,0 +1,56 @@
+@charset "utf-8";
+body {
+	margin: 0 auto;
+	width: 960px;
+}
+h1 {
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	margin-left: -297px;
+}
+.tab-menu {
+	list-style: none;
+	height: 80px;
+	overflow: hidden;
+}
+.tab-menu > li {
+	float: left;
+}
+.tab-menu > li > a {
+	width: 99px;
+	height: 40px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+	overflow: hidden; 
+}
+.tab-menu > li > a:hover {
+	background-position: 0 -40px;
+}
+.tab-menu > li> a.on {
+	background-position: 0 -80px;
+	height: 80px;
+}
+.tab-menu > li > a.google {
+	background-image:url('../images/google.png');
+}
+.tab-menu > li > a.facebook {
+	background-image:url('../images/facebook.png');
+}
+.tab-menu > li > a.pinterest {
+	background-image:url('../images/pinterest.png');
+}
+.tab-menu > li > a.twitter {
+	background-image:url('../images/twitter.png');
+}
+.tab-menu > li > a.airbnb {
+	background-image:url('../images/airbnb.png');
+}
+.tab-menu > li > a.path {
+	background-image:url('../images/path.png');
+}
